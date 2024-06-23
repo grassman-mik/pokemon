@@ -1,0 +1,740 @@
+.bg1
+{
+  position: fixed;
+  z-index: -99;
+}
+
+.topbut
+{
+  width: 1440px;
+  height: 80px;
+  display: flex;
+  background-color: white;
+  position: fixed;
+  z-index: 99;
+}
+
+.logo
+{
+  width: 240px;
+}
+
+.topbuta
+{
+  width: 240px;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(255, 0, 0);
+  font-family: Verdana;
+}
+
+.topbutb
+{
+  width: 240px;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(255, 187, 0);
+  font-family: Verdana;
+}
+
+.topbutc
+{
+  width: 240px;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(255, 251, 0);
+  font-family: Verdana;
+}
+
+.topbutd
+{
+  width: 240px;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(60, 255, 0);
+  font-family: Verdana;
+}
+
+.topbute
+{
+  width: 240px;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(0, 225, 255);
+  font-family: Verdana;
+}
+
+.topbutp
+{
+  display: none;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 99;
+}
+
+.logop
+{
+  display : flex ;
+  justify-content: center;
+}
+
+.topbutap
+{
+  width: 100%;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(255, 0, 0);
+  font-family: Verdana;
+}
+
+.topbutbp
+{
+  width: 100%;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(255, 187, 0);
+  font-family: Verdana;
+}
+
+.topbutcp
+{
+  width: 100%;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(255, 251, 0);
+  font-family: Verdana;
+}
+
+.topbutdp
+{
+  width: 100%;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(60, 255, 0);
+  font-family: Verdana;
+}
+
+.topbutep
+{
+  width: 100%;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(0, 225, 255);
+  font-family: Verdana;
+}
+
+.ynb
+{
+  display: flex;
+  flex-wrap: wrap;
+  width: 898px;
+  height: 500px;
+  margin: auto;
+  border: 1px solid black;
+  position: relative;
+  background:rgba(255, 241, 159, 0.5);
+}
+
+.ynbbg
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.hompy
+{
+  width: 448px;
+  height: auto;
+  border-right: 1px solid black;
+}
+
+
+.hompyimg
+{
+  width: 224px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.hompytxt
+{
+  font-size: 20px;
+  text-align:center;
+}
+
+.hompybtn
+{
+  width: 300px;
+  font-size: 30px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.hompb
+{
+  width: 448px;
+  height: auto;
+  border-left: 1px solid black;
+  left: 449px;
+}
+.hompbup
+{
+  height: 30px;
+}
+.hompbimg
+{
+  width: 300px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.hompbtxt
+{
+  font-size: 20px;
+  text-align:center;
+}
+
+.hompbbtn
+{
+  width: 300px;
+  font-size: 30px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.ani
+{
+  width: 300px;
+  height: 450px;
+  border: 1px solid black;
+  background-color: rgb(182, 182, 182);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+.anipic
+{
+  width: 200px;
+  height: 270px;
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+}
+
+.townmain
+{
+  width:1200px;
+  height:auto;
+  margin: auto;
+}
+
+.townview
+{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.townback
+{
+  width:240px;
+  height:300px;
+  align-items: center; 
+}
+
+.townback2
+{
+  width:240px;
+  height:240px;
+  display: flex; 
+  align-items: center; 
+}
+
+.townpic1
+{
+  width:148px;
+  height:148px;
+  background-image:url("https://media.52poke.com/wiki/c/c6/%E9%97%9C%E9%83%BD_LPLE.png");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  border-radius: 10% 10% 10% 10%;
+  margin: auto;
+  transition-duration: 0.2s;
+  display: flex; 
+  align-items: center; 
+  
+}
+.townpic1:hover
+{
+  width:238px;
+  height:238px;
+  transition-duration: 0.2s;
+}
+
+.townpic2
+{
+  width:148px;
+  height:148px;
+  background-image:url("https://media.52poke.com/wiki/a/a0/%E5%9F%8E%E9%83%BD_HGSS.jpg");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  border-radius: 10% 10% 10% 10%;
+  margin: auto;
+  transition-duration: 0.2s;
+  display: flex; 
+  align-items: center; 
+  
+}
+.townpic2:hover
+{
+  width:238px;
+  height:238px;
+  transition-duration: 0.2s;
+}
+
+.townpic3
+{
+  width:148px;
+  height:148px;
+  background-image:url("https://media.52poke.com/wiki/1/1a/%E4%B8%B0%E7%BC%98%E5%9C%B0%E5%8C%BA_ORAS.png");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  border-radius: 10% 10% 10% 10%;
+  margin: auto;
+  transition-duration: 0.2s;
+  display: flex; 
+  align-items: center; 
+  
+}
+.townpic3:hover
+{
+  width:238px;
+  height:238px;
+  transition-duration: 0.2s;
+}
+
+.townpic4
+{
+  width:148px;
+  height:148px;
+  background-image:url("https://media.52poke.com/wiki/b/b1/%E7%A5%9E%E5%A5%A5_BDSP.png");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  border-radius: 10% 10% 10% 10%;
+  margin: auto;
+  transition-duration: 0.2s;
+  display: flex; 
+  align-items: center; 
+  
+}
+.townpic4:hover
+{
+  width:238px;
+  height:238px;
+  transition-duration: 0.2s;
+}
+
+.townpic5
+{
+  width:148px;
+  height:148px;
+  background-image:url("https://media.52poke.com/wiki/4/40/%E6%B4%97%E7%BF%A0_LA.png");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  border-radius: 10% 10% 10% 10%;
+  margin: auto;
+  transition-duration: 0.2s;
+  display: flex; 
+  align-items: center; 
+  
+}
+.townpic5:hover
+{
+  width:238px;
+  height:238px;
+  transition-duration: 0.2s;
+}
+
+.townpic6
+{
+  width:148px;
+  height:148px;
+  background-image:url("https://media.52poke.com/wiki/2/2e/%E5%90%88%E4%BC%97_B2W2.png");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  border-radius: 10% 10% 10% 10%;
+  margin: auto;
+  transition-duration: 0.2s;
+  display: flex; 
+  align-items: center; 
+  
+}
+.townpic6:hover
+{
+  width:238px;
+  height:238px;
+  transition-duration: 0.2s;
+}
+
+.townpic7
+{
+  width:148px;
+  height:148px;
+  background-image:url("https://media.52poke.com/wiki/4/48/%E5%8D%A1%E6%B4%9B%E6%96%AF_XY.png");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  border-radius: 10% 10% 10% 10%;
+  margin: auto;
+  transition-duration: 0.2s;
+  display: flex; 
+  align-items: center; 
+  
+}
+.townpic7:hover
+{
+  width:238px;
+  height:238px;
+  transition-duration: 0.2s;
+}
+
+.townpic8
+{
+  width:148px;
+  height:148px;
+  background-image:url("https://media.52poke.com/wiki/1/11/%E9%98%BF%E7%BE%85%E6%8B%89_USUM.png");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  border-radius: 10% 10% 10% 10%;
+  margin: auto;
+  transition-duration: 0.2s;
+  display: flex; 
+  align-items: center; 
+  
+}
+.townpic8:hover
+{
+  width:238px;
+  height:238px;
+  transition-duration: 0.2s;
+}
+
+.townpic9
+{
+  width:148px;
+  height:148px;
+  background-image:url("https://media.52poke.com/wiki/1/17/%E4%BC%BD%E5%8B%92%E5%B0%94%E5%9C%B0%E5%8C%BA.png");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  border-radius: 10% 10% 10% 10%;
+  margin: auto;
+  transition-duration: 0.2s;
+  display: flex; 
+  align-items: center; 
+  
+}
+.townpic9:hover
+{
+  width:238px;
+  height:238px;
+  transition-duration: 0.2s;
+}
+
+.townpic10
+{
+  width:148px;
+  height:148px;
+  background-image:url("https://media.52poke.com/wiki/5/53/%E5%B8%95%E5%BA%95%E4%BA%9A%E5%9C%B0%E5%8C%BA_SV.png");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  border-radius: 10% 10% 10% 10%;
+  margin: auto;
+  transition-duration: 0.2s;
+  display: flex; 
+  align-items: center; 
+  
+}
+.townpic10:hover
+{
+  width:238px;
+  height:238px;
+  transition-duration: 0.2s;
+}
+
+.anti
+{
+  width: 800px;
+  height: 450px;
+  margin: auto;
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(255, 255, 255, 1)), url("anti.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.antitxt
+{
+  font-size: 30px;
+  position:relative;
+  top:380px; left:20px;
+}
+
+.antibtn
+{
+  width: 250px;
+  font-size: 30px;
+  height: auto;
+  display: block;
+  position:relative; 
+  top:360px; 
+  left:600px;
+}
+
+.bottom
+{
+  width: 1440px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(0, 0, 0);
+}
+
+.bottomitm
+{
+  width: 720px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bottomlef
+{
+  width: 180px;
+  height: 150px;
+  line-height: 150px;
+  font-size: 20px; 
+  color: white;
+  text-align:center;
+}
+
+.bottomrit1
+{
+  width: 160px;
+  height: 66px;
+  margin: auto;
+  background-image:url("masteragency_logo_tw_pc.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.bottomrit2
+{
+  width: 160px;
+  height: 66px;
+  margin: auto;
+  background-image:url("masteragency_tretta_tw_pc.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.bottomrit3
+{
+  width: 160px;
+  height: 66px;
+  margin: auto;
+  background-image:url("nintendo-banner.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width:500px) 
+{
+  .townmain
+{
+  width:400px;
+}
+
+  .topbut
+  {
+    display: none;
+  }
+  .topbutp
+  {
+    display: block;
+  }
+  .ynb
+  {
+    width: 300px;
+    height: 300px;
+  }
+.ynbbg
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.hompy
+{
+  width: 148px;
+}
+
+
+.hompyimg
+{
+  width: 100px;
+}
+
+.hompytxt
+{
+  font-size: 10px;
+}
+
+.hompybtn
+{
+  width: 100px;
+  font-size: 10px;
+}
+
+.hompb
+{
+  width: 148px;
+}
+
+.hompbup
+{
+  height: 50px;
+}
+
+.hompbimg
+{
+  width: 100px;
+}
+
+.hompbtxt
+{
+  font-size: 10px;
+}
+
+.hompbbtn
+{
+  width: 100px;
+  font-size: 10px;
+}
+
+.anti
+{
+  width: 400px;
+  height: 225px;
+}
+
+.antitxt
+{
+  font-size: 15px;
+  position:relative;
+  top:180px; left:10px;
+}
+
+.antibtn
+{
+  width: 125px;
+  font-size: 15px;
+  height: auto;
+  display: block;
+  position:relative; 
+  top:180px; 
+  left:280px;
+}
+
+.bottom
+{
+  width: 400px;
+  min-height: 150px;
+}
+
+.bottomitm
+{
+  width: 200px;
+  min-height: 150px;
+  display: block;
+}
+
+.bottomlef
+{
+  width: 180px;
+  height: auto;
+  line-height: 35px;
+  font-size: 20px; 
+}
+
+.bottomrit1
+{
+  width: 80px;
+  height: 33px;
+  margin: auto;
+  margin-top: 10px;
+  background-image:url("masteragency_logo_tw_pc.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.bottomrit2
+{
+  width: 80px;
+  height: 33px;
+  margin: auto;
+  margin-top: 10px;
+  background-image:url("masteragency_tretta_tw_pc.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.bottomrit3
+{
+  width: 80px;
+  height: 33px;
+  margin: auto;
+  margin-top: 10px;
+  background-image:url("nintendo-banner.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+}
