@@ -1,3 +1,8 @@
+.topblock
+{
+  height: 80px;
+}
+
 .bg1
 {
   z-index: -99;
@@ -275,6 +280,7 @@
 
 .game1
 {
+    border: 0;
     width:120px;
     height:150px;
     background-image:url("https://s1.52poke.com/wiki/thumb/9/93/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E7%BA%A2_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png/250px-%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E7%BA%A2_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png");
@@ -282,35 +288,38 @@
     background-position: center center;
     position:relative; 
     top:180px; 
-    left:150px;
+    left:120px;
 }
 
 .game2
 {
+  border: 0;
     width:120px;
     height:150px;
     background-image:url("https://media.52poke.com/wiki/0/02/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E7%BB%BF_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png");
     background-size: cover;
     background-position: center center;
     position:relative; 
-    top:250px; 
-    left:50px;
+    top:360px; 
+    left:-90px;
 }
 
 .game3
 {
+  border: 0;
     width:120px;
     height:150px;
     background-image:url("https://s1.52poke.com/wiki/thumb/1/19/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E8%93%9D_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png/250px-%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E8%93%9D_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png");
     background-size: cover;
     background-position: center center;
     position:relative; 
-    top:100px; 
-    left:250px;
+    top:360px; 
+    left:-30px;
 }
 
 .game4
 {
+  border: 0;
     width:120px;
     height:150px;
     background-image:url("https://s1.52poke.com/wiki/thumb/d/dc/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E7%9A%AE%E5%8D%A1%E4%B8%98_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png/250px-%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E7%9A%AE%E5%8D%A1%E4%B8%98_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png");
@@ -323,6 +332,7 @@
 
 .game5
 {
+  border: 0;
     width:120px;
     height:150px;
     background-image:url("https://s1.52poke.com/wiki/thumb/d/d6/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E9%87%91_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.jpg/180px-%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E9%87%91_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.jpg");
@@ -335,18 +345,20 @@
 
 .game6
 {
+  border: 0;
     width:120px;
     height:150px;
     background-image:url("https://s1.52poke.com/wiki/thumb/b/ba/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E9%93%B6_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.jpg/180px-%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E9%93%B6_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.jpg");
     background-size: cover;
     background-position: center center;
     position:relative; 
-    top:150px; 
-    left:250px;
+    top:300px; 
+    left:150px;
 }
 
 .game7
 {
+  border: 0;
     width:120px;
     height:150px;
     background-image:url("https://s1.52poke.com/wiki/thumb/7/70/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E6%B0%B4%E6%99%B6%E7%89%88_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png/250px-%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E6%B0%B4%E6%99%B6%E7%89%88_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png");
@@ -359,6 +371,7 @@
 
 .game8
 {
+  border: 0;
     width:200px;
     height:127px;
     background-image:url("https://s1.52poke.com/wiki/thumb/f/ff/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E7%BA%A2%E5%AE%9D%E7%9F%B3_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png/180px-%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E7%BA%A2%E5%AE%9D%E7%9F%B3_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png");
@@ -371,18 +384,20 @@
 
 .game9
 {
+  border: 0;
     width:200px;
     height:127px;
     background-image:url("https://s1.52poke.com/wiki/thumb/f/f3/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E8%93%9D%E5%AE%9D%E7%9F%B3_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png/180px-%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E8%93%9D%E5%AE%9D%E7%9F%B3_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png");
     background-size: cover;
     background-position: center center;
     position:relative; 
-    top:250px; 
-    left:50px;
+    top:400px; 
+    left:-150px;
 }
 
 .game10
 {
+  border: 0;
     width:200px;
     height:127px;
     background-image:url("https://s1.52poke.com/wiki/thumb/3/3e/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E7%BB%BF%E5%AE%9D%E7%9F%B3_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png/250px-%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E7%BB%BF%E5%AE%9D%E7%9F%B3_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png");
@@ -395,6 +410,7 @@
 
 .game11
 {
+  border: 0;
     width:150px;
     height:134px;
     background-image:url("https://s1.52poke.com/wiki/thumb/5/58/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E9%92%BB%E7%9F%B3_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.jpg/180px-%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E9%92%BB%E7%9F%B3_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.jpg");
@@ -407,18 +423,20 @@
 
 .game12
 {
+  border: 0;
     width:150px;
     height:134px;
     background-image:url("https://s1.52poke.com/wiki/thumb/a/af/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E7%8F%8D%E7%8F%A0_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.jpg/180px-%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E7%8F%8D%E7%8F%A0_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.jpg");
     background-size: cover;
     background-position: center center;
     position:relative; 
-    top:167px; 
-    left:260px;
+    top:300px; 
+    left:100px;
 }
 
 .game13
 {
+  border: 0;
     width:150px;
     height:134px;
     background-image:url("https://s1.52poke.com/wiki/c/c0/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E7%99%BD%E9%87%91_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png");
@@ -431,6 +449,7 @@
 
 .game14
 {
+  border: 0;
     width:150px;
     height:136px;
     background-image:url("https://s1.52poke.com/wiki/thumb/a/ad/Pokemon_Black_Boxart_JP.png/180px-Pokemon_Black_Boxart_JP.png");
@@ -443,18 +462,20 @@
 
 .game15
 {
+  border: 0;
     width:150px;
     height:136px;
     background-image:url("https://s1.52poke.com/wiki/thumb/c/c7/Pokemon_White_Boxart_JP.png/180px-Pokemon_White_Boxart_JP.png");
     background-size: cover;
     background-position: center center;
     position:relative; 
-    top:167px; 
-    left:270px;
+    top:300px; 
+    left:100px;
 }
 
 .game16
 {
+  border: 0;
     width:150px;
     height:134px;
     background-image:url("https://s1.52poke.com/wiki/thumb/9/9f/Pokemon_Black_2_Boxart_JP.png/180px-Pokemon_Black_2_Boxart_JP.png");
@@ -462,23 +483,25 @@
     background-position: center center;
     position:relative; 
     top:650px; 
-    left:40px;
+    left:60px;
 }
 
 .game17
 {
+  border: 0;
     width:150px;
     height:134px;
     background-image:url("https://s1.52poke.com/wiki/thumb/1/13/Pokemon_White_2_Boxart_JP.png/180px-Pokemon_White_2_Boxart_JP.png");
     background-size: cover;
     background-position: center center;
-    position:relative; 
-    top:518px; 
-    left:280px;
+    position:relative;  
+    top:650px; 
+    left:130px;
 }
 
 .game18
 {
+  border: 0;
     width:150px;
     height:134px;
     background-image:url("https://s1.52poke.com/wiki/thumb/1/15/Pokemon_X_Boxart_JP.png/180px-Pokemon_X_Boxart_JP.png");
@@ -491,18 +514,20 @@
 
 .game19
 {
+  border: 0;
     width:150px;
     height:134px;
     background-image:url("https://s1.52poke.com/wiki/thumb/c/cb/Pokemon_Y_Boxart_JP.png/180px-Pokemon_Y_Boxart_JP.png");
     background-size: cover;
     background-position: center center;
     position:relative; 
-    top:350px; 
-    left:280px;
+    top:480px; 
+    left:100px;
 }
 
 .game20
 {
+  border: 0;
     width:150px;
     height:134px;
     background-image:url("https://s1.52poke.com/wiki/thumb/0/07/%E7%B2%BE%E9%9D%88%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E5%A4%AA%E9%99%BD_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png/180px-%E7%B2%BE%E9%9D%88%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E5%A4%AA%E9%99%BD_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png");
@@ -515,18 +540,20 @@
 
 .game21
 {
+  border: 0;
     width:150px;
     height:134px;
     background-image:url("https://s1.52poke.com/wiki/thumb/2/20/%E7%B2%BE%E9%9D%88%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%9C%88%E4%BA%AE_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png/180px-%E7%B2%BE%E9%9D%88%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%9C%88%E4%BA%AE_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png");
     background-size: cover;
     background-position: center center;
     position:relative; 
-    top:166px; 
-    left:280px;
+    top:300px; 
+    left:120px;
 }
 
 .game22
 {
+  border: 0;
     width:150px;
     height:134px;
     background-image:url("https://s1.52poke.com/wiki/thumb/1/1f/%E7%B2%BE%E9%9D%88%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E7%A9%B6%E6%A5%B5%E4%B9%8B%E6%97%A5_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png/180px-%E7%B2%BE%E9%9D%88%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E7%A9%B6%E6%A5%B5%E4%B9%8B%E6%97%A5_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png");
@@ -539,18 +566,20 @@
 
 .game23
 {
+  border: 0;
     width:150px;
     height:134px;
     background-image:url("https://s1.52poke.com/wiki/thumb/9/9c/%E7%B2%BE%E9%9D%88%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E7%A9%B6%E6%A5%B5%E4%B9%8B%E6%9C%88_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png/180px-%E7%B2%BE%E9%9D%88%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E7%A9%B6%E6%A5%B5%E4%B9%8B%E6%9C%88_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png");
     background-size: cover;
     background-position: center center;
     position:relative; 
-    top:518px; 
-    left:250px;
+    top:650px; 
+    left:100px;
 }
 
 .game24
 {
+  border: 0;
     width:150px;
     height:234px;
     background-image:url("https://s1.52poke.com/wiki/thumb/1/1e/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E5%8A%8D_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png/180px-%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E5%8A%8D_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png");
@@ -563,18 +592,20 @@
 
 .game25
 {
+  border: 0;
     width:150px;
     height:234px;
     background-image:url("https://s1.52poke.com/wiki/thumb/3/34/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E7%9B%BE_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png/180px-%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E7%9B%BE_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png");
     background-size: cover;
     background-position: center center;
     position:relative; 
-    top:18px; 
-    left:280px;
+    top:250px; 
+    left:120px;
 }
 
 .game26
 {
+  border: 0;
     width:220px;
     height:125px;
     background-image:url("https://s1.52poke.com/wiki/7/7b/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E5%89%91%EF%BC%8F%E7%9B%BE_%E6%89%A9%E5%B1%95%E7%A5%A8_%E5%9B%BE%E6%A0%87_%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87.png");
@@ -587,6 +618,7 @@
 
 .game27
 {
+  border: 0;
     width:150px;
     height:234px;
     background-image:url("https://s1.52poke.com/wiki/thumb/4/46/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%9C%B1_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png/180px-%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%9C%B1_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png");
@@ -599,18 +631,20 @@
 
 .game28
 {
+  border: 0;
     width:150px;
     height:234px;
     background-image:url("https://s1.52poke.com/wiki/thumb/b/b7/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E7%B4%AB_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png/180px-%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E7%B4%AB_%E5%B0%81%E9%9D%A2_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.png");
     background-size: cover;
     background-position: center center;
     position:relative; 
-    top:18px; 
-    left:280px;
+    top:250px; 
+    left:120px;
 }
 
 .game29
 {
+  border: 0;
     width:220px;
     height:154px;
     background-image:url("https://s1.52poke.com/wiki/thumb/2/20/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E6%9C%B1%EF%BC%8F%E7%B4%AB_%E9%9B%B6%E4%B9%8B%E7%A7%98%E5%AE%9D_%E5%9B%BE%E6%A0%87_%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87.png/250px-%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E6%9C%B1%EF%BC%8F%E7%B4%AB_%E9%9B%B6%E4%B9%8B%E7%A7%98%E5%AE%9D_%E5%9B%BE%E6%A0%87_%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87.png");
@@ -623,14 +657,11 @@
 
 @media (max-width:500px) 
 {
-  .topbut
+  .topblock
   {
-    display: none;
+    height: 220px;
   }
-  .topbutp
-  {
-    display: block;
-  }
+
   .bg1
   {
     width:400px;
@@ -847,7 +878,7 @@
       height:50px;
       position:relative; 
       left:10px;
-      top: 10px;
+      top: 50px;
   }
 
   .game2
@@ -855,17 +886,17 @@
       width:40px;
       height:50px;
       position:relative; 
-      left:10px;
-      top: 20px;
+      left:-34px;
+      top: 110px;
   }
 
   .game3
   {
       width:40px;
       height:50px;
-      position:relative; 
-      left:10px;
-      top: 30px;
+      position:relative;  
+      left:-78px;
+      top: 170px;
   }
 
   .game4
@@ -889,8 +920,8 @@
   {
       width:40px;
       height:50px;
-      left:10px;
-      top: 80px;
+      left:-34px;
+      top: 130px;
   }
 
   .game7
@@ -913,8 +944,8 @@
   {
       width:60px;
       height:38px;
-      left:10px;
-      top: 80px;
+      left:-54px;
+      top: 130px;
   }
 
   .game10
@@ -937,8 +968,8 @@
   {
       width:40px;
       height:36px;
-      left:10px;
-      top: 80px;
+      left:-34px;
+      top: 130px;
   }
 
   .game13
@@ -961,15 +992,15 @@
   {
       width:40px;
       height:36px;
-      left:10px;
-      top: 80px;
+      left:-34px;
+      top: 130px;
   }
 
   .game16
   {
       width:40px;
       height:36px;
-      left:80px;
+      left:85px;
       top: 160px;
   }
 
@@ -977,8 +1008,8 @@
   {
       width:40px;
       height:36px;
-      left:80px;
-      top: 170px;
+      left:40px;
+      top: 220px;
   }
 
   .game18
@@ -986,15 +1017,15 @@
       width:40px;
       height:36px;
       left:10px;
-      top: 110px;
+      top: 120px;
   }
 
   .game19
   {
       width:40px;
       height:36px;
-      left:10px;
-      top: 120px;
+      left:-34px;
+      top: 180px;
   }
 
   .game20
@@ -1009,8 +1040,8 @@
   {
       width:40px;
       height:36px;
-      left:80px;
-      top: 80px;
+      left:36px;
+      top: 130px;
   }
 
   .game22
@@ -1025,8 +1056,8 @@
   {
       width:40px;
       height:36px;
-      left:10px;
-      top: 170px;
+      left:-34px;
+      top: 220px;
   }
 
   .game24
@@ -1041,8 +1072,8 @@
   {
       width:40px;
       height:62px;
-      left:80px;
-      top: 80px;
+      left:36px;
+      top: 150px;
   }
 
   .game26
@@ -1065,8 +1096,8 @@
   {
       width:40px;
       height:62px;
-      left:80px;
-      top: 80px;
+      left:36px;
+      top: 150px;
   }
 
   .game29
