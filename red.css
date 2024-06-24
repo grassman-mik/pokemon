@@ -1,0 +1,10 @@
+
+.bg
+{
+  z-index: -99;
+  width:1440px;
+  height:1080px;
+  background-image: linear-gradient( rgba(239, 245, 151, 0.5), rgba(239, 245, 151, 0.5)), url("https://media.52poke.com/wiki/thumb/c/c6/%E9%97%9C%E9%83%BD_LPLE.png/1200px-%E9%97%9C%E9%83%BD_LPLE.png?20180712174828");
+  background-size: cover;
+  background-position: center center;
+}

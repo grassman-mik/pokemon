@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寶可夢首頁</title>
+    <link rel="stylesheet" href="main.css"><!--插入css檔 -->
+    <link rel="stylesheet" href="head.css"><!--插入css檔 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+</head>
+<body>  
+    <div class="topbut">
+        <button class="logo" onclick="location.href='index.html'"></button>
+        <button class="topbuta" onclick="location.href='gameyear.html'">遊戲年表</button>
+        <button class="topbutb">寶可夢圖鑑</button>
+        <button class="topbutc">動畫</button>
+        <button class="topbutd">地區介紹</button>
+        <button class="topbute">反派組織</button>
+    </div>
+
+    <div class="topbutp">
+      <button class="logop" onclick="location.href='index.html'"></button>
+      <button class="topbutap" onclick="location.href='gameyear.html'">遊戲年表</button>
+      <button class="topbutbp">寶可夢圖鑑</button>
+      <button class="topbutcp">動畫</button>
+      <button class="topbutdp">地區介紹</button>
+      <button class="topbutep">反派組織</button>
+  </div>
+
+    <div style="height: 80px;"></div>  
+    
+    <img src="bg.png" class="bg1">
+
+    <div style="height: 160px;"></div>    
+
+    <div class="ynb">
+        <div class="hompy">
+            <div style="height: 21px;"></div>
+            <img class="hompyimg" src="https://media.52poke.com/wiki/9/93/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E7%BA%A2_%E6%97%A5%E7%89%88%E5%B0%81%E9%9D%A2.png">
+            <div style="height: 20px;"></div>
+            <p class="hompytxt">透過遊戲一起探索寶可夢的世界</p>
+            <div style="height: 20px;"></div>
+            <button class="hompybtn " onclick="location.href='gameyear.html'">前往遊戲年表</button>
+        </div>
+
+        <div class="hompb">
+            <div class="hompbup"></div>
+            <img class="hompbimg" src="book.png">
+            <div style="height: 30px;"></div>
+            <p class="hompbtxt">透過圖鑑查找你喜歡的寶可夢</p>
+            <div style="height: 20px;"></div>
+            <button class="hompbbtn">前往寶可夢圖鑑</button>
+        </div>
+
+    </div>
+
+    <div style="height: 80px;"></div>    
+
+    <div>
+      <p style="font-size: 60px; text-align:center;">歷代動畫</p>
+
+      <div class="center">
+
+        <div class="ani">
+          <button class="anipic1"></button>>
+          <div class="anitxt">寶可夢</div>
+        </div>
+    
+        <div class="ani">
+          <button class="anipic2"></button>
+          <div class="anitxt">寶可夢 超世代</div>
+        </div>
+    
+        <div class="ani">
+          <button class="anipic3"></button>
+          <div class="anitxt">寶可夢 鑽石＆珍珠</div>
+        </div>
+    
+        <div class="ani">
+          <button class="anipic4"></button>
+          <div class="anitxt">寶可夢 超級願望</div>
+        </div>
+    
+        <div class="ani">
+          <button class="anipic5"></button>
+          <div class="anitxt">寶可夢 xy</div>
+        </div>
+    
+        <div class="ani">
+          <button class="anipic6"></button>
+          <div class="anitxt">寶可夢 太陽＆月亮</div>
+        </div>
+    
+        <div class="ani">
+          <button class="anipic7"></button>
+          <div class="anitxt">寶可夢 旅途</div>
+        </div>
+    
+        <div class="ani">
+          <button class="anipic8"></button>
+          <div class="anitxt">寶可夢 地平線</div>
+        </div>
+      </div>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js'></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+      <script type="text/javascript" src="slick.min.js"></script>
+    
+      <script  type="text/javascript"> 
+      $('.center').slick(
+        {
+            dots: true,
+            speed: 100,
+            infinite: true,
+            centerMode: true,
+            centerPadding: '50px',
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 2,
+              }
+            },
+            {
+              breakpoint: 770,
+              settings: {
+                slidesToShow: 1,
+              }
+            },
+            ]
+        } 
+      );
+      </script>
+    </div>
+    
+    <div style="height: 40px;"></div>   
+
+    <div>
+      <p style="font-size: 50px; text-align:center;">地區介紹</p>
+      <div class="townmain">
+        <div class="townview">
+          <div class="townback">
+            <p style="font-size: 30px; text-align:center; margin: auto;">關都地區</p>
+            <div class="townback2">
+              <button class="townpic1"></button>
+            </div>
+          </div>
+          <div class="townback">
+            <p style="font-size: 30px; text-align:center; margin: auto;">城都地區</p>
+            <div class="townback2">
+              <button class="townpic2"></button>
+            </div>
+          </div>
+          <div class="townback">
+            <p style="font-size: 30px; text-align:center; margin: auto;">豐緣地區</p>
+            <div class="townback2">
+              <button class="townpic3"></button>
+            </div>
+          </div>
+          <div class="townback">
+            <p style="font-size: 30px; text-align:center; margin: auto;">神奧地區</p>
+            <div class="townback2">
+              <button class="townpic4"></button>
+            </div>
+          </div>
+          <div class="townback">
+            <p style="font-size: 30px; text-align:center; margin: auto;">洗翠地區</p>
+            <div class="townback2">
+              <button class="townpic5"></button>
+            </div>
+          </div>
+          <div class="townback">
+            <p style="font-size: 30px; text-align:center; margin: auto;">合眾地區</p>
+            <div class="townback2">
+              <button class="townpic6"></button>
+            </div>
+          </div>
+          <div class="townback">
+            <p style="font-size: 30px; text-align:center; margin: auto;">卡洛斯地區</p>
+            <div class="townback2">
+              <button class="townpic7"></button>
+            </div>
+          </div>
+          <div class="townback">
+            <p style="font-size: 30px; text-align:center; margin: auto;">阿羅拉地區</p>
+            <div class="townback2">
+              <button class="townpic8"></button>
+            </div>
+          </div>
+          <div class="townback">
+            <p style="font-size: 30px; text-align:center; margin: auto;">伽勒爾地區</p>
+            <div class="townback2">
+              <button class="townpic9"></button>
+            </div>
+          </div>
+          <div class="townback">
+            <p style="font-size: 30px; text-align:center; margin: auto;">帕底亞地區</p>
+            <div class="townback2">
+              <button class="townpic10"></button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div style="height: 80px;"></div>   
+
+    <div>
+      <p style="font-size: 60px; text-align:center;">反派組織</p>
+      <div class="anti">
+        <div class="antitxt">一起來探探邪惡組織的底細</div>
+        <button class="antibtn">前往邪惡組織</button>
+      </div>
+    </div>
+
+    <div style="height: 160px;"></div>
+    
+    <div class="bottom">
+      <div class="bottomitm">
+        <div class="bottomlef">使用條款</div>
+        <div class="bottomlef">隱私權政策</div>
+        <div class="bottomlef">網路地圖</div>
+        <div class="bottomlef">服務查詢</div>
+      </div>
+      <div class="bottomitm">
+        <div class="bottomrit1"></div>
+        <div class="bottomrit2"></div>
+        <div class="bottomrit3"></div>
+      </div>
+  </div>
+
+</body>
+</html>

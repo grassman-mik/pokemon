@@ -1,0 +1,175 @@
+.topbut
+{
+  width: 1440px;
+  height: 80px;
+  display: flex;
+  background-color: white;
+  position: fixed;
+  z-index: 99;
+  text-align:center;
+}
+
+.logo
+{
+  width: 240px;
+  height: 80px;
+  background-color: white;
+  border:0;
+  background-image:url("https://tw.portal-pokemon.com/img/common/logo.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.topbuta
+{
+  width: 240px;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border:0;
+  border-bottom: 1px solid rgb(255, 0, 0);
+  font-family: Verdana;
+}
+
+.topbutb
+{
+  width: 240px;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border:0;
+  border-bottom: 1px solid rgb(255, 187, 0);
+  font-family: Verdana;
+}
+
+.topbutc
+{
+  width: 240px;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border:0;
+  border-bottom: 1px solid rgb(255, 251, 0);
+  font-family: Verdana;
+}
+
+.topbutd
+{
+  width: 240px;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border:0;
+  border-bottom: 1px solid rgb(60, 255, 0);
+  font-family: Verdana;
+}
+
+.topbute
+{
+  width: 240px;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border:0;
+  border-bottom: 1px solid rgb(0, 225, 255);
+  font-family: Verdana;
+}
+
+.topbutp
+{
+  display: none;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 99;
+  text-align:center;
+}
+
+.logop
+{
+  margin: auto;
+  width: 240px;
+  height: 80px;
+  display : flex ;
+  justify-content: center;
+  background-color: white;
+  border:0;
+  background-image:url("https://tw.portal-pokemon.com/img/common/logo.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.topbutap
+{
+  width: 100%;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border:0;
+  border-bottom: 1px solid rgb(255, 0, 0);
+  font-family: Verdana;
+}
+
+.topbutbp
+{
+  width: 100%;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border:0;
+  border-bottom: 1px solid rgb(255, 187, 0);
+  font-family: Verdana;
+}
+
+.topbutcp
+{
+  width: 100%;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border:0;
+  border-bottom: 1px solid rgb(255, 251, 0);
+  font-family: Verdana;
+}
+
+.topbutdp
+{
+  width: 100%;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border:0;
+  border-bottom: 1px solid rgb(60, 255, 0);
+  font-family: Verdana;
+}
+
+.topbutep
+{
+  width: 100%;
+  font-size: 20px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border:0;
+  border-bottom: 1px solid rgb(0, 225, 255);
+  font-family: Verdana;
+}
